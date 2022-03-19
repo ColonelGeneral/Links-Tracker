@@ -1,0 +1,67 @@
+body {
+  background-color: bisque;
+}
+
+input {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #6c966269;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Box Format taken from
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model */
+
+.box {
+    width: 500px;
+    height: 350px;
+    margin: 10px auto;
+    padding: 25px;
+    border: 5px solid rgb(70, 100, 148);
+    position: relative;
+    overflow: scroll;
+}
+
+button {
+    color: rgb(186, 214, 26);
+    padding: 10px 20px;
+    border: 1px solid #5f9341;
+    font-weight: bold;
+}
+
+#save-site-btn, #save-tab-btn {
+  float: right;
+  background-color: #d1df12;
+  color:rgb(70, 100, 148)
+}
+
+#delete-specific-site-btn, #delete-sites-btn {
+  background-color: #212121;
+  color: #4aa564;
+
+}
+
+
+#delete-sites-btn {
+  position: absolute;
+  right: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+
+#save-tab-btn {
+  position: absolute;
+  right: 0px;
+  margin: 30px;
+}
+
+.delete-button {
+  height: 30px;
+}
+
+.save-button {
+  height: 30px;
+}
